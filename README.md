@@ -6,17 +6,17 @@ The official in-store POS bridge agent for **Sughware Copilot**. It securely con
 
 ### Windows (PowerShell)
 ```powershell
-irm https://app.sughware.com/install.ps1?token=YOUR_PAIRING_TOKEN | iex
+irm https://app.sughware.com/install.ps1/YOUR_PAIRING_TOKEN | iex
 ```
 
 ### Linux (Ubuntu / Debian / RHEL)
 ```bash
-curl -fsSL https://app.sughware.com/install.sh?token=YOUR_PAIRING_TOKEN | bash
+curl -fsSL https://app.sughware.com/install.sh/YOUR_PAIRING_TOKEN | bash
 ```
 
 ### macOS
 ```bash
-curl -fsSL https://app.sughware.com/install.sh?token=YOUR_PAIRING_TOKEN | bash
+curl -fsSL https://app.sughware.com/install.sh/YOUR_PAIRING_TOKEN | bash
 ```
 
 ### With Node.js 18+ (npx)
